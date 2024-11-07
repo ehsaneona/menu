@@ -6,22 +6,22 @@ import { ThemeProvider } from '@/components/theme-provider';
 const yekanBakh = localFont({
     src: [
         {
-            path: './fonts/yekanBakhRegular.ttf',
+            path: './fonts/yekan-bakh-regular.ttf',
             weight: '400',
             style: 'normal',
         },
         {
-            path: './fonts/yekanBakhMedium.ttf',
+            path: './fonts/yekan-bakh-medium.ttf',
             weight: '500',
             style: 'normal',
         },
         {
-            path: './fonts/yekanBakhBold.ttf',
+            path: './fonts/yekan-bakh-bold.ttf',
             weight: '700',
             style: 'normal',
         },
         {
-            path: './fonts/yekanBakhHeavy.ttf',
+            path: './fonts/yekan-bakh-heavy.ttf',
             weight: '900',
             style: 'normal',
         },
