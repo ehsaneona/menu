@@ -29,3 +29,114 @@ export function Logo() {
         </svg>
     );
 }
+
+export function HotDrink() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 18 18"
+        >
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M11.25 12h-6A2.25 2.25 0 0 1 3 9.75v-4.5a1.5 1.5 0 0 1 1.5-1.5H12a1.5 1.5 0 0 1 1.5 1.5v4.5A2.25 2.25 0 0 1 11.25 12"
+                clipRule="evenodd"
+            ></path>
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M13.5 9.75H15a1.5 1.5 0 0 0 1.5-1.5v-1.5a.75.75 0 0 0-.75-.75H13.5M3.75 15h9"
+            ></path>
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M8.25 9H6V6.75A.75.75 0 0 1 6.75 6h.75a.75.75 0 0 1 .75.75z"
+                clipRule="evenodd"
+            ></path>
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M7.125 6V3.75"
+            ></path>
+        </svg>
+    );
+}
+
+export function ColdDrink() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 18 18"
+        >
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M5.047 10.5h7.906"
+            ></path>
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M4.5 7.5v-.602q0-.148.036-.291l.004-.017a3.75 3.75 0 0 1 3.638-2.84h1.726a3.65 3.65 0 0 1 3.569 2.873v0q.027.126.027.257v.62l-1.388 7.634a.75.75 0 0 1-.738.616H6.626a.75.75 0 0 1-.738-.616z"
+                clipRule="evenodd"
+            ></path>
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M3.75 7.5h10.5M8.967 10.5l1.392-8.372a.75.75 0 0 1 .96-.594l2.181.672"
+            ></path>
+        </svg>
+    );
+}
+
+export function Cakes() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="none"
+            viewBox="0 0 18 18"
+            stroke="currentColor"
+        >
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M8.998 6.747a2.046 2.046 0 0 1-2.047-2.048M6.95 4.7c0-.893.408-1.536 1.227-1.536M8.998 6.747a2.047 2.047 0 0 0 2.055-2.048"
+            ></path>
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M11.052 4.7c0-.893-.413-1.536-1.234-1.536M9.818 3.164c-.407 0-.643.132-.82.132s-.407-.132-.82-.132"
+            ></path>
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M9 3.294V2.55c0-.58.47-1.05 1.05-1.05M6.956 4.779C4.651 5.418 3 7.102 3 9.085v.051c0 .986.654 1.889 1.604 2.075a1.98 1.98 0 0 0 1.854-.604c.302-.327.797-.303 1.103.02a1.975 1.975 0 0 0 2.879 0c.306-.324.8-.347 1.103-.02a1.98 1.98 0 0 0 1.854.604C14.346 11.026 15 10.123 15 9.137v-.052c0-1.982-1.65-3.666-3.955-4.305"
+            ></path>
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="m13.391 11.212-.498 3.265a1.5 1.5 0 0 1-1.482 1.273H6.59a1.5 1.5 0 0 1-1.483-1.274l-.498-3.264"
+            ></path>
+        </svg>
+    );
+}
