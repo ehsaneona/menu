@@ -1,0 +1,25 @@
+:root {
+  --posters-slider-shadow-bg-color: #000;
+  user-select: none;
+}
+
+.posters-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+  .swiper {
+    overflow: visible;
+  }
+
+  .swiper-slide {
+    justify-content: center;
+    display: flex;
+  }
+
+  .swiper-slide-shadow {
+    background: var(--posters-slider-shadow-bg-color);
+    @apply rounded-[32px];
+  }
+}
