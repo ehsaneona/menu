@@ -9,7 +9,8 @@ declare namespace JSX {
             ar?: boolean;
             cameraControls?: boolean;
             autoplay?: boolean;
-            [key: string]: never;
+            shadowIntensity?: string;
+            touchAction?: string;
         };
     }
 }

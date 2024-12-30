@@ -70,9 +70,9 @@ export function Menu({ eatery, eateryMenu }) {
                                                         'https://gharchkhor-cdn.darkube.app'
                                                     )}
                                                     ar
-                                                    shadow-intensity="1"
-                                                    camera-controls
-                                                    touch-action="pan-y"
+                                                    shadowIntensity="1"
+                                                    cameraControls
+                                                    touchAction="pan-y"
                                                 ></model-viewer>
                                                 <CardTitle className="mt-[30px]">
                                                     {item.title}
