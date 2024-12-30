@@ -70,7 +70,6 @@ export function Menu({ eatery, eateryMenu }) {
                                                         'https://gharchkhor-cdn.darkube.app'
                                                     )}
                                                     ar
-                                                    poster=""
                                                     shadow-intensity="1"
                                                     camera-controls
                                                     touch-action="pan-y"
