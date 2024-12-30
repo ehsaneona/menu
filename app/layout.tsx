@@ -29,8 +29,8 @@ const yekanBakh = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'منو | کافه ایس',
-    description: 'منوی کافه ایس',
+    title: 'منو | کافه کوچه',
+    description: 'منوی کافه کوچه',
 };
 
 export default function RootLayout({
@@ -49,6 +49,10 @@ export default function RootLayout({
                 >
                     {children}
                 </ThemeProvider>
+                <script
+                    type="module"
+                    src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"
+                />
             </body>
         </html>
     );
