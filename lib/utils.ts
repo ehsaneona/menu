@@ -13,7 +13,9 @@ export const fetcher = async (params: {
     };
     method?: string;
     headers?: Record<string, string>;
-    body?: any;
+    body?: {
+        [key: string]: never;
+    };
     sendToken?: boolean;
     lang?: string;
     status?: boolean;

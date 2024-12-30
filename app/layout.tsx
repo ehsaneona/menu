@@ -49,6 +49,7 @@ export default function RootLayout({
                 >
                     {children}
                 </ThemeProvider>
+                {/* eslint-disable-next-line @next/next/no-sync-scripts */}
                 <script
                     type="module"
                     src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"
