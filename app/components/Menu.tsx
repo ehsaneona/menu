@@ -69,10 +69,10 @@ export function Menu({ eatery, eateryMenu }) {
                                                         'http://gharchkhor-cdn.hope.svc:9000',
                                                         'https://gharchkhor-cdn.darkube.app'
                                                     )}
+                                                    shadow-intensity="1"
+                                                    camera-controls
+                                                    touch-action="pan-y"
                                                     ar
-                                                    shadowIntensity="1"
-                                                    cameraControls
-                                                    touchAction="pan-y"
                                                 ></model-viewer>
                                                 <CardTitle className="mt-[30px]">
                                                     {item.title}
