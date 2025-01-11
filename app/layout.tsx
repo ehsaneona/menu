@@ -29,8 +29,8 @@ const yekanBakh = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'منو | کافه کوچه',
-    description: 'منوی کافه کوچه',
+    title: 'منو | کافه کناری',
+    description: 'منوی کافه کناری',
 };
 
 export default function RootLayout({
