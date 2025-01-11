@@ -26,10 +26,7 @@ export function Menu({ eatery, eateryMenu }) {
         <main className="mx-auto min-h-screen max-w-[450px] overflow-hidden">
             <header className="flex items-center justify-center gap-2 py-4">
                 <img
-                    src={eatery.logo.replace(
-                        'http://gharchkhor-cdn.hope.svc:9000',
-                        'https://gharchkhor-cdn.darkube.app'
-                    )}
+                    src={eatery.logo}
                     className="h-12 w-12 rounded-full object-contain"
                     width={55}
                     height={20}
@@ -65,10 +62,7 @@ export function Menu({ eatery, eateryMenu }) {
                                                 <model-viewer
                                                     className="mx-auto aspect-square h-[280px] h-full w-[280px] w-full rounded-2xl object-cover"
                                                     alt={item.description}
-                                                    src={item.image_3d.replace(
-                                                        'http://gharchkhor-cdn.hope.svc:9000',
-                                                        'https://gharchkhor-cdn.darkube.app'
-                                                    )}
+                                                    src={item.image_3d}
                                                     shadow-intensity="1"
                                                     camera-controls
                                                     touch-action="pan-y"
