@@ -29,7 +29,7 @@ export function Menu({ eatery, eateryMenu }) {
                     src={eatery.logo.replace(
                         'http://gharchkhor-cdn-0.hope.svc:9000/',
                         'https://gharchkhor-cdn-0.darkube.app/'
-                    )}
+                    ).replace(/\?.*$/, '')}
                     className="h-12 w-12 rounded-full object-contain"
                     width={55}
                     height={20}
@@ -68,7 +68,7 @@ export function Menu({ eatery, eateryMenu }) {
                                                     src={item.image_3d.replace(
                                                         'http://gharchkhor-cdn-0.hope.svc:9000/',
                                                         'https://gharchkhor-cdn-0.darkube.app/'
-                                                    )}
+                                                    ).replace(/\?.*$/, '')}
                                                     shadow-intensity="1"
                                                     camera-controls
                                                     touch-action="pan-y"
